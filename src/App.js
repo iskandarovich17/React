@@ -1,13 +1,18 @@
 import React from 'react';
+import Navbar from './navbar/navbar'
+import Sidebar from './sidebar/sidebar'
+import './App.css'
 
-class pdp extends React.Component{
-    render(){
-      return(
-        <div>
-          <div>Akang kuchaydi</div>
-          <h1>O'sha gap {this.props.title}</h1>
+class App extends React.Component{
+  render(){
+    return(
+      <div className='app-container'>
+        <Sidebar />
+        <div className='app-main'>
+          <Navbar />
         </div>
-      )
-    }
+      </div>
+    )
+  }
 }
-export default pdp
+export default App;  

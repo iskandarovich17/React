@@ -1,0 +1,144 @@
+.container{
+    position: relative;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 12px 0px rgb(73, 75, 116, 0.1);
+
+    flex: 3;
+    margin: 10px;
+}
+.app-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 43px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.logo{
+     width: 26px;
+     height: 26px;
+}
+.text{
+    margin-left: 11px;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #304858
+}
+.app-menu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+.menu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    margin-right: 60px;
+    color: #3629B7;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 17px;
+color: #838383;
+}
+.menu-text:hover{
+    color: rgba(22, 19, 21, 0.3);
+}
+.menu-text{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+color: #838383;
+
+}
+.fa{
+    font-size: 20px;
+    color: #838383
+}
+.app-checkbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-bottom: 9px;
+}
+.checkbox-menu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+margin-right: 60px;
+color: #3629B7;
+}
+.border{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    /* margin-right: 10px; */
+}
+.border1{
+    border: 1px solid #3F7EF8;
+box-sizing: border-box
+}
+.border2{
+    border: 1px solid #FA6C6A;;
+box-sizing: border-box
+}
+.border3{
+    border: 1px solid #27C1B3;
+box-sizing: border-box
+}
+.checkbox-item{
+    display: flex;
+    align-items: center;
+}
+.menu-input{
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 55%;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-left: 30px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 12px 0px rgb(73, 75, 116, 0.1);
+}
+.account{
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    justify-content: center;
+}
+.input-search{
+    width: 80px;
+    height: 25px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+margin-right: 60px;
+}
+::placeholder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-size: 10px;
+line-height: 17px;
+
+color: #838383;
+
+}
